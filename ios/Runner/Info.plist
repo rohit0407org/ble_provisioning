@@ -54,6 +54,7 @@
     <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
     <string>This app needs access to location when in the background to detect beacons and bluetooth devices.</string>
     <key>NSLocationAlwaysUsageDescription</key>
+    <string>This app needs access to location to detect beacons and bluetooth devices at all times.</string>
     <key>UIBackgroundModes</key>
     <array>
       <string>bluetooth-central</string>
