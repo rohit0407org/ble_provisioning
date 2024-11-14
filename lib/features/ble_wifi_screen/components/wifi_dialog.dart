@@ -8,9 +8,9 @@ class WifiDialog extends StatefulWidget {
   final String wifiName;
 
   const WifiDialog({
-    Key? key,
+    super.key,
     required this.wifiName,
-  }) : super(key: key);
+  });
   @override
   State<WifiDialog> createState() => _WifiDialogState();
 }

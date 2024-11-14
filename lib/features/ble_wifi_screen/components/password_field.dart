@@ -6,8 +6,7 @@ class PasswordField extends StatefulWidget {
   final FormFieldSetter<String>? onSaved;
 
   const PasswordField(
-      {Key? key, this.initialValue, this.onChanged, this.onSaved})
-      : super(key: key);
+      {super.key, this.initialValue, this.onChanged, this.onSaved});
 
   @override
   State<PasswordField> createState() => _PasswordFieldState();

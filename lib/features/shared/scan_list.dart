@@ -11,10 +11,9 @@ class ScanList extends StatelessWidget {
   const ScanList(
       {required this.items,
         required this.icon,
-        Key? key,
+        super.key,
         this.onTap,
-        this.disableLoading = false})
-      : super(key: key);
+        this.disableLoading = false});
 
   @override
   Widget build(BuildContext context) {

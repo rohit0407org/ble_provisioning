@@ -5,6 +5,7 @@ import 'dart:typed_data';
 import 'package:bloc/bloc.dart';
 
 import 'package:flutter_ble_lib_ios_15/flutter_ble_lib.dart';
+// ignore: depend_on_referenced_packages
 import 'package:meta/meta.dart';
 import 'package:logger/logger.dart';
 import 'package:esp_provisioning_ble/esp_provisioning_ble.dart';

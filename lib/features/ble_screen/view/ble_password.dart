@@ -9,7 +9,7 @@ import 'package:untitled2/features/ble_screen/bloc/ble_bloc.dart';
 import 'package:untitled2/features/ble_wifi_screen/bloc/ble_wifi_bloc.dart';
 
 class BlePasswordView extends StatefulWidget {
-  const BlePasswordView({Key? key}) : super(key: key);
+  const BlePasswordView({super.key});
 
   @override
   State<BlePasswordView> createState() => _BlePasswordViewState();
